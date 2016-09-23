@@ -42,6 +42,7 @@ This project is purely for job application purposes. There is almost 100% chance
 2. Set write permissions for directories: /log, /temp
 3. Run requirements checker to be sure your server meets Nette framework's requirements.
 4. Create database structure. You can use prepared MySQL database revision placed at /contrib/rev/rev0001.sql
+5. Update config file /app/config/config.local.neon
 
 #API Reference
 
