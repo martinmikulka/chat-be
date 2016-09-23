@@ -1,9 +1,10 @@
 parameters:
+	apiKey: <SET_YOUR_API_KEY>
 
 
 database:
-	dsn: 'mysql:host=127.0.0.1;dbname=test'
-	user:
-	password:
+	dsn: 'mysql:host=127.0.0.1;dbname=<SET_YOUR_DB_NAME>'
+	user: <SET_YOUR_DB_USER>
+	password: <SET_YOUR_DB_PASSWORD>
 	options:
 		lazy: yes
